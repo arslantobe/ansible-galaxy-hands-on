@@ -1,0 +1,4 @@
+[servers]
+web_server_1 ansible_host=172.31.82.152 ansible_ssh_private_key_file=~/tobe.pem ansible_user=ec2-user
+web_server_2 ansible_host=172.31.91.65 ansible_ssh_private_key_file=~/tobe.pem ansible_user=ubuntu
+instance_image ansible_host=172.31.88.160 ansible_ssh_private_key_file=~/tobe.pem ansible_user=ubuntu
